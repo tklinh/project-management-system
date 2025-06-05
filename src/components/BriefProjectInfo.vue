@@ -15,6 +15,7 @@
           <a-list-item><strong>Địa điểm:</strong> {{ info.location }}</a-list-item>
           <a-list-item><strong>Quy mô:</strong> {{ info.area }}</a-list-item>
           <a-list-item><strong>Tình trạng:</strong> {{ info.status }}</a-list-item>
+          <a-list-item><router-link to="/project/1" class="nav-link" active-class="active">Chi tiết dự án</router-link></a-list-item>
         </a-list>
       </a-col>
     </a-row>

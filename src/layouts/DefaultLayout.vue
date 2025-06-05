@@ -29,8 +29,8 @@
               </span>
             </template>
             <a-menu-item key="1"><router-link to="/projects" class="nav-link" active-class="active"> Danh sách dự án</router-link></a-menu-item>
-            <a-menu-item key="2">Thêm dự án</a-menu-item>
-            <a-menu-item key="3">option3</a-menu-item>
+            <a-menu-item key="2"><router-link to="/project" class="nav-link" active-class="active">Thêm dự án</router-link></a-menu-item>
+            <a-menu-item key="3"><router-link to="/project/1" class="nav-link" active-class="active">Chi tiết dự án</router-link></a-menu-item>
             <a-menu-item key="4">option4</a-menu-item>
           </a-sub-menu>
           <a-sub-menu key="sub2">
